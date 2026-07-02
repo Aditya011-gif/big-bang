@@ -15,3 +15,9 @@ await writeFile(
 );
 
 console.log("Built static project into dist/");
+// Remove the existing 'dist' directory to ensure a clean build
+// Create a new 'dist' directory
+// Copy the main HTML file to the 'dist' directory
+// Check if the 'src' directory exists and copy its contents to 'dist/src'
+// Write build metadata to a JSON file in the 'dist' directory
+// Log a success message to indicate the build is complete
