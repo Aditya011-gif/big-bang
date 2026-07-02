@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Big Bang Theory</title>
+    <link rel="stylesheet" href="src/styles.css">
+</head>
+<body>
+    <header>
+        <h1>The Big Bang Theory</h1>
+    </header>
+    <main>
+        <section id="introduction">
+            <h2>What is the Big Bang Theory?</h2>
+            <p>The Big Bang Theory is the leading explanation of how the universe began. It suggests that the universe started as a single point, which expanded over billions of years to become the cosmos we know today.</p>
+        </section>
+
+        <section id="timeline">
+            <h2>Timeline of the Big Bang</h2>
+            <div id="interactive-timeline">
+                <button onclick="showEvent(1)">Time: 0 seconds</button>
+                <button onclick="showEvent(2)">Time: 1 second</button>
+                <button onclick="showEvent(3)">Time: 3 minutes</button>
+                <button onclick="showEvent(4)">Time: 300,000 years</button>
+                <button onclick="showEvent(5)">Time: 1 billion years</button>
+                <p id="event-description">Click a button to explore the timeline!</p>
+            </div>
+        </section>
+
+        <section id="fun-facts">
+            <h2>Fun Facts</h2>
+            <ul>
+                <li>The universe is approximately 13.8 billion years old.</li>
+                <li>The Big Bang wasn't an explosion but an expansion of space itself.</li>
+                <li>Cosmic Microwave Background radiation is the afterglow of the Big Bang.</li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>Made with ❤️ to explain the wonders of the universe.</p>
+    </footer>
+
+    <script src="src/main.js"></script>
+</body>
+</html>
