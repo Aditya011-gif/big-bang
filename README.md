@@ -21,4 +21,13 @@ This is a simple, interactive website that explains the Big Bang Theory using a 
 This project uses only browser-native HTML, CSS, and JavaScript, so no additional installations are required. It works on all modern browsers.
 
 ## License
-This project is free to use and modify for educational purposes.
+This project is free to use and modify for educational purposes.## Getting Started
+To run the project locally:
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/Aditya011-gif/big-bang.git
+   ```
+2. Navigate to the project directory:
+   cd big-bang
+3. Start the development server:
+   npm start
